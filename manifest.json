@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+    "name": "ArcaneWallet",
+    "version": "1.0",
+    "description": "A bitcoin wallet extension for chrome",
+    "icons": {
+        "128": "./resources/images/icon128.png",
+        "48": "./resources/images/icon48.png",
+        "16": "./resources/images/icon16.png"
+    },
+    "browser_action": {
+        "default_icon": "./resources/images/icon16.png",
+        "default_popup": "./static/index.html"
+    },
+    "permissions": [
+        "fontSettings"
+    ]
+}
